@@ -1,0 +1,23 @@
+{
+  "name": "m9-portfolio-generator",
+  "version": "1.0.0",
+  "description": "M9 mini project. Portfolio generator working in group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateo-Wallace/M9-Portfolio-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mateo-Wallace/M9-Portfolio-Generator/issues"
+  },
+  "homepage": "https://github.com/Mateo-Wallace/M9-Portfolio-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
