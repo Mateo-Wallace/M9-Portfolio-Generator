@@ -12,8 +12,8 @@ function generateHTML(data) {
             crossorigin="anonymous" />
         <title>Portfolio</title>
     </head>
-    <body>
-        <div class="container">
+    <body class="bg-primary d-flex justify-content-center align-items-center">
+        <div class="container card mt-5">
             <h1>Hello, my name is ${data.name}</h1>
             <ul>
                 <li>Location: ${data.location}</li>

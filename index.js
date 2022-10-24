@@ -35,7 +35,7 @@ const questions = [
 // Write to file function
 function writeToFile(data) {
     fs.writeFile('index.html', data, (err) =>
-        err ? console.error(err) : console.log('README file saved as USERREADME.md')
+        err ? console.error(err) : console.log('Portfolio file saved as index.html')
     )
 }
 
