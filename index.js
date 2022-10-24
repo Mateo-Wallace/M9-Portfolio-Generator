@@ -6,10 +6,30 @@ const generateHTML = require('./utils/generateHTML');
 // Questions
 const questions = [
     {
-        type: 'input',
-        message: 'What is your PROJECT TITLE?',
-        name: 'title',
+        type: "input",
+        message: "What is your name?",
+        name: "name"
     },
+    {
+        type: "input",
+        message: "Where do you live?",
+        name: "location"
+    },
+    {
+        type: "input",
+        message: "Write a short description of yourself",
+        name: "bio"
+    },
+    {
+        type: "input",
+        message: "What is your linkedin url?",
+        name: "linkedin"
+    },
+    {
+        type: "input",
+        message: "What is your github username?",
+        name: "github"
+    }
 ];
 
 // Write to file function
